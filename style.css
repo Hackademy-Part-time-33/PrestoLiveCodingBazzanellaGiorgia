@@ -1,0 +1,58 @@
+
+
+/* font */
+
+*{
+    font-family: "Electrolize" , sans-serif;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2,.h3, .h4,.h5, .h6 {
+    font-family: "Orbitron", sans-serif;
+}
+
+/* colori root */
+:root{
+    --black: rgb(26, 26, 26);
+    --white: rgb(250,250,250);
+    --gold: rgb(174,148,109);
+}
+
+.bg-black{
+    background-color: var(--black);
+}
+
+.bg-white{
+    background-color: var(--white);
+}
+
+.bg-gold{
+    background-color: var(--gold);
+}
+
+.txt-black{
+    color: var(--black);
+}
+
+.txt-white{
+    color: var(--white);
+}
+
+.txt-gold{
+    color: var(--gold);
+}
+
+.nav.custom{
+    background-color: var(--white);
+    height: 90px;
+    ;
+}
+
+/* css scrollbar che da effetto come se le cose passassero sotto la navbar, si chiama effetto plexiglass*/
+
+.nav-Blur{
+    backdrop-filter: blur (5px) saturate(0.8);
+    background: rgba( 100, 100, 100, 0.9);
+    border: 3px solid var(--gold);
+}
